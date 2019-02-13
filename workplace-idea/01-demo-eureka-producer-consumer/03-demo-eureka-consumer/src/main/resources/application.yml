@@ -1,0 +1,9 @@
+server:
+  port: 10102
+spring:
+  application:
+    name: demo-eureka-consumer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:666666@localhost:10001/eureka/
